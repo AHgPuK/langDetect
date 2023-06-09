@@ -14,7 +14,7 @@ const Module = function (str) {
 
     for (const lang in regexes) {
         const regex = regexes[lang];
-        const match = str.trim()[0].match(regex);
+        const match = str.trim()[0]?.match(regex);
         if (match) {
             result = lang;
             break;
