@@ -12,20 +12,21 @@ const values = [
   'मैं एक खुश गाय हूँ',              // Hindi
   'انا بقرة سعيدة',             // Arabic
   'Я счастливая корова',         // Russian
-]
-
-const val = [
+// ];
+//
+//
+// const val = [
 	'Нагария',
 	'Волгодонск',
 	'Nahariya',
 	'Volgodonsk',
 	'נהריה',
-
+	'Львів',
 ];
 
 const data = {}
 
-val.forEach(value => {
+values.forEach(value => {
 
   const result = langDetect(value);
 
